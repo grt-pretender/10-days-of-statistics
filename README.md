@@ -1,4 +1,4 @@
-# 10-days-of-stats
+# 10-days-of-statistics
 Solutions to HackerRank's "10 Days of Statistics".
 
 ___________________
