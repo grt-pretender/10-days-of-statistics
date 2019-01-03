@@ -13,10 +13,10 @@ S.sort()
 
 if n%2 != 0:
     quartile1 = stats.median(S[:N//2])
-    quartile3 = stats.median(S[N//2+1:])
+    quartile3 = stats.median(S[N//2 + 1:])
 else:
     quartile1 = stats.median(S[:N//2])
     quartile3 = stats.median(S[N//2:])
 
-interquartile_range = round(float(quartile3-quartile1), 1)
+interquartile_range = round(float(quartile3 - quartile1), 1)
 print(interquartile_range)
