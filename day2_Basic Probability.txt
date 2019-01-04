@@ -1,0 +1,41 @@
+Task 1: Basic Probability
+In a single toss of 2 fair (evenly-weighted) six-sided dice, find the probability that their sum will be at most 9.
+
+________________________
+
+1. Experiment: 
+single toss of 2 fair (evenly-weighted) six-sided dice.
+
+2. Sample space (S):  
+This situation gives us 6 possibilities for each roll (6 sides).
+Thus, the total number of all possible outcomes, S = 36.
+
+3. Event (A):
+These are all possible combinations (36) for the task:
+
+(1,1) (1,2) (1,3) (1,4) (1,5) (1,6) 
+(2,1) (2,2) (2,3) (2,4) (2,5) (2,6)
+(3,1) (3,2) (3,3) (3,4) (3,5) (3,6)
+(4,1) (4,2) (4,3) (4,4) (4,5) (4,6)
+(5,1) (5,2) (5,3) (5,4) (5,5) (5,6)
+(6,1) (6,2) (6,3) (6,4) (6,5) (6,6)
+
+Combinations (4,6) (6,4) (5,5) (6,5) (5,6) (6,6) do not satisfy our condition
+(we can draw a diagonal line from (6,3) to (3,6) so everything to the right of the line sums more than 9)
+
+The remaining 30 combinations to the left fit well. 
+The number of all favourable outcomes, A = 36 - 6 = 30.
+
+4. Solution (P(A)):
+P(A) = A/S = 30/36 = 5/6
+
+________________________
+
+We can use another approach.
+We`ve found 6 combinations for the sum of 2 dice to be > 9: (4,6) (6,4) (5,5) (6,5) (5,6) (6,6).
+Let`s call it Event N. 
+In this case, P(N) = N/S = 6/36 = 1/6.
+
+For Event A we can use one law of probability: P(A) = 1 - P(N).
+Thus, P(A) = 1 - 1/6 = 5/6
+
