@@ -1,0 +1,48 @@
+Task 3: Compound Event Probability
+
+There are 3 urns labeled X, Y, and Z. 
+
+Urn X contains 4 red balls and 3 black balls.
+Urn Y contains 5 red balls and 4 black balls.
+Urn Z contains 4 red balls and 4 black balls. 
+
+One ball is drawn from each of the 3 urns. What is the probability that, of the 3 balls drawn, 2 are red and 1 is black?
+
+________________________
+
+1. Experiment: 
+one ball is drawn from each of the 3 urns.
+
+2. Sample space:  
+Urn X contains 4 red balls and 3 black balls, total of 7 balls.
+Urn Y contains 5 red balls and 4 black balls, total of 9 balls.
+Urn Z contains 4 red balls and 4 black balls, total of 8 balls. 
+
+3. Defining probability for each color in each urn:
+P(X, red) = 4/7
+P(X, black) = 3/7
+
+P(Y, red) = 5/9
+P(Y, black) = 4/9
+
+P(Z, red) = 4/8 = 1/2
+P(Z, black) = 4/8 = 1/2
+
+4. What is the probability that, of the 3 balls drawn, 2 are red and 1 is black?
+
+There are 3 scenarios with mutually exclusive events:
+
+Scenario A (X, red; Y, red; Z, black), 
+P(A) = (4/7)(5/9)(1/2) = 20/126 
+
+Scenario B (X, red; Y, black; Z, red), 
+P(B) = (4/7)(4/9)(1/2) = 16/126
+
+Scenario C (X, black; Y, red; Z, red),
+P(C) = (3/7)(5/9)(1/2) = 15/126
+
+
+5. Solution:
+P(A or B or C) = P(A) + P(B) + P(C) = 20/126 + 16/126 + 15/126 = 51/126 = 17/42
+
+
