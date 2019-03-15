@@ -13,4 +13,4 @@ Since one child is definitely a boy, GG situation is irrelevant.
 
 Still there are three variants, and probability that both children are boys is 1/3:
 
-P(BB|B) = BB / (BG+GB+BB)
+P(BB|B) = BB/(BG+GB+BB)
