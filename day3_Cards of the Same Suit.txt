@@ -1,0 +1,23 @@
+Task 2: Cards of the Same Suit
+
+You draw 2 cards from a standard 52-card deck without replacing them. What is the probability that both cards are of the same suit?
+
+____________________________________________
+
+Solution: 
+
+1. Deck = 52 cards
+
+2. Deck = 4 suites, 13 cards per suit
+
+
+3. When we draw the first card we have 52 options. 
+
+4. When we draw the second one we have 51 options. 
+
+
+5. When we calculate the probability that both cards are of the same suit, we think about the second card to be a match.
+
+6. For this second card we have 12 remaining matching cards in the deck of 51 cards.
+
+7. Thus, P = 12/51 = 4/17
